@@ -1,0 +1,48 @@
+.nav{
+  background-color: $white-Color;
+  overflow: hidden;
+  box-shadow: 0 0 5px 0 $white-10-Color;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  a{
+    float: right;
+    color: $nav-Color;
+    text-align: center;
+    padding: 4px 16px;
+    font-size: 16px;
+    line-height: 49px;
+    border-bottom: 2px solid $white-Color;
+    &:hover{
+      border-bottom: 2px solid $orange-Color;
+    }
+  }
+  .brand{
+    color: $orange-Color;
+    font-size: 35px;
+  }
+  .icon{
+    display: none;
+  }
+}
+@media screen and (max-width:600px){
+  .nav a:not(:first-child){
+    display: none;
+  }
+
+  .nav.responsive{
+    position: relative;
+    a{
+      float: none;
+      display: block;
+      text-align: right;
+    }
+    a.icon{
+      display: block;
+      float: left;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
