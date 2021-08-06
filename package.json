@@ -4,7 +4,7 @@
   "description": "change fil to mini and .....",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manouchehr Ghalevand",
   "license": "ISC",
