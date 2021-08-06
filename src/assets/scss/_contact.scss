@@ -1,0 +1,39 @@
+/*start contact section styles */
+.container-fluid-custom{
+  background-color: $background-nav;
+  color: $white-Color;
+  height: 40px;
+  .row{
+    .container{
+      .contact{
+        font-size: 15px;
+        i{
+          color: $orange-Color;
+          vertical-align: -10px;
+          margin-right: 15px;
+          span{
+            color: $white-Color;
+            margin: 5px;
+            vertical-align: 1px;
+          }
+        }
+      }
+      .social-media {
+        direction: ltr;
+        a{
+          color: $white-Color;
+          i{
+            vertical-align: -6px;
+            padding: 10px;
+            width: 40px;
+            &:hover{
+              background-color: $orange-Color;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+/*end contact section styles */

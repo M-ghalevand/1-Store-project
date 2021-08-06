@@ -53,7 +53,7 @@ gulp.task('css-minify',async function () {
 gulp.task('css-minify-concat',async function () {
     gulp.src('src/assets/css/*.css')
         .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(rename("styles.min.css"))
+        .pipe(rename("style.min.css"))
         .pipe(gulp.dest('dist/assets/css/'));
 });
 
@@ -98,7 +98,7 @@ gulp.task('watch-copy',async function (){
 
 //watch minify concat task ranner gulp
 gulp.task('watch-minify-concat',async function (){
-    gulp.watch('src/assets/pug/' , gulp.series('pug-compile'));
+    // gulp.watch('src/assets/pug/' , gulp.series('pug-compile'));
     gulp.watch('src/' , gulp.series('html-minify'));
     gulp.watch('src/assets/fonts/' , gulp.series('font-copy'));
     gulp.watch('src/assets/scss/' , gulp.series('scss-compile'));

@@ -1,0 +1,27 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazir, sans-serif;
+}
+
+body {
+  direction: rtl;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  position: relative;
+}
+
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
