@@ -1031,3 +1031,55 @@ section .about-us-left-side a {
 section .about-us-left-side a:hover {
   border-radius: 0 24px 0 24px;
 }
+
+section.container-fluid .span-techer::after {
+  right: 61px;
+}
+
+.teacher-section-wrapper {
+  background-image: url("../images/e-bg.jpg");
+}
+.teacher-section-wrapper .teacher-intro {
+  background: #fff;
+  top: 90%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  box-shadow: 0 3px 4px 0 #b1acac;
+  border-radius: 0 0 20px 20px;
+}
+.teacher-section-wrapper .teacher-intro h3 {
+  margin: 30px 0 30px 0;
+}
+.teacher-section-wrapper .teacher-intro h3 span {
+  background-color: orange;
+  color: #fff;
+  padding: 1px 18px;
+  border-radius: 5px;
+}
+.teacher-section-wrapper .teacher-intro a {
+  border: 2px solid orange;
+  padding: 4px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  transition: 0.5s ease;
+  font-size: 16px;
+  color: #6b6666;
+  margin: 30px;
+}
+.teacher-section-wrapper .teacher-intro a:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .teacher-section-wrapper .teacher-intro h3 {
+    margin: 30px 0 40px 0;
+    font-size: 17px;
+  }
+  .teacher-section-wrapper .teacher-intro a {
+    font-size: 14px;
+  }
+}
