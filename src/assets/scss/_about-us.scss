@@ -1,0 +1,40 @@
+section{
+  .top-border{
+    padding-top: 32px;
+    border-top: 2px solid rgba(102,102,102,0.78);
+    h5{
+      .span-about-me::after {
+        right: 64px;
+      }
+    }
+  }
+  .about-us-left-side{
+    background-color: $white-Color;
+    padding: 0 60px 0 60px;
+    h4{
+      border-bottom: 1px solid $white-10-Color;
+      padding-bottom: 20px;
+      font-size: 20px;
+      color: $nav-Color;
+    }
+    p{
+      padding: 24px;
+      font-size: 17px;
+      line-height: 32px;
+      color: $gray-Color;
+    }
+    a{
+      background-color: $orange-Color;
+      padding: 5px 10px;
+      border-radius: 3px;
+      color: $white-Color;
+      float: left;
+      margin-left: 30px;
+      font-size: 16px;
+      transition: 0.5s ease;
+      &:hover {
+        border-radius: 0 24px 0 24px;
+      }
+    }
+  }
+}

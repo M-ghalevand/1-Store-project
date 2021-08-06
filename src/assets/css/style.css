@@ -994,3 +994,40 @@ ul {
   font-size: 14px;
   color: #414141;
 }
+
+section .top-border {
+  padding-top: 32px;
+  border-top: 2px solid rgba(102, 102, 102, 0.78);
+}
+section .top-border h5 .span-about-me::after {
+  right: 64px;
+}
+section .about-us-left-side {
+  background-color: #fff;
+  padding: 0 60px 0 60px;
+}
+section .about-us-left-side h4 {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: #2e2e2e;
+}
+section .about-us-left-side p {
+  padding: 24px;
+  font-size: 17px;
+  line-height: 32px;
+  color: #5c5c5c;
+}
+section .about-us-left-side a {
+  background-color: orange;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #fff;
+  float: left;
+  margin-left: 30px;
+  font-size: 16px;
+  transition: 0.5s ease;
+}
+section .about-us-left-side a:hover {
+  border-radius: 0 24px 0 24px;
+}
