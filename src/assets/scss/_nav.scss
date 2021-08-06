@@ -29,7 +29,12 @@
   .nav a:not(:first-child){
     display: none;
   }
-
+  .nav {
+    a.icon{
+      display: block;
+      float: left;
+    }
+  }
   .nav.responsive{
     position: relative;
     a{
@@ -38,8 +43,6 @@
       text-align: right;
     }
     a.icon{
-      display: block;
-      float: left;
       position: absolute;
       top: 0;
       left: 0;
