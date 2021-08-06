@@ -1,0 +1,12 @@
+.stat-section-wrapper{
+  background-color: $orange-Color;
+  min-height: 300px;
+  .stat-post{
+    div{
+      margin-top: 18px;
+    }
+    p{
+      margin-top: 18px;
+    }
+  }
+}

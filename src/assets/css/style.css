@@ -1083,3 +1083,13 @@ section.container-fluid .span-techer::after {
     font-size: 14px;
   }
 }
+.stat-section-wrapper {
+  background-color: orange;
+  min-height: 300px;
+}
+.stat-section-wrapper .stat-post div {
+  margin-top: 18px;
+}
+.stat-section-wrapper .stat-post p {
+  margin-top: 18px;
+}
